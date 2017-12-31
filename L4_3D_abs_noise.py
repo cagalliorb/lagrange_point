@@ -129,6 +129,7 @@ def cal_and_plot(tend):
         k3 = make_derivative(all_list[n] + dlt / 2 * k2)
         k4 = make_derivative(all_list[n] + dlt * k3)
         all_list[n + 1, :] = all_list[n, :] + dlt / 6 * (k1 + 2 * k2 + 2 * k3 + k4)
+        all_list[n + 1, 12:15] = np.random.normal(0, 0.0001, 3)+ all_list[n + 1, 12:15]
         print("division: {0}/{1}".format(n, lis_num))
 
     fig = plt.figure()
@@ -143,34 +144,6 @@ def cal_and_plot(tend):
     plt.legend()
     plt.show()
 
-    """L4に対する相対位置のplot"""
-    """
-    fig = plt.figure()
-
-    ax1 = fig.add_subplot(131, aspect=1)  # 軌道のxy平面投影グラフの作成
-    ax1.plot(xs_rel[:, 0], xs_rel[:, 1])
-    ax1.set_xlabel("x")
-    ax1.set_ylabel("y")
-    ax1.set_xlim([-0.2, 0.2])
-    ax1.set_ylim([-0.2, 0.2])
-
-    ax2 = fig.add_subplot(132, aspect=1)  # 軌道のyz平面投影グラフの作成
-    ax2.plot(xs_rel[:, 1], xs_rel[:, 2])
-    ax2.set_xlabel("y")
-    ax2.set_ylabel("z")
-    ax2.set_xlim([-0.2, 0.2])
-    ax2.set_ylim([-0.2, 0.2])
-
-    ax3 = fig.add_subplot(133, aspect=1)  # 軌道のzx平面投影グラフの作成
-    ax3.plot(xs_rel[:, 0], xs_rel[:, 2])
-    ax3.set_xlabel("x")
-    ax3.set_ylabel("z")
-    ax3.set_xlim([-0.2, 0.2])
-    ax3.set_ylim([-0.2, 0.2])
-
-    plt.show()
-    """
-
 
 if __name__ == '__main__':
-    cal_and_plot(1)
+    cal_and_plot(10)

@@ -148,21 +148,21 @@ def cal_and_plot(tend):
     fig = plt.figure()
 
     ax1 = fig.add_subplot(131, aspect=1)  # 軌道のxy平面投影グラフの作成
-    ax1.plot(xs_rel[:, 0], xs_rel[:, 1])
+    ax1.plot(xs_rel[:, 0], xs_rel[:, 1], color="red")
     ax1.set_xlabel("x")
     ax1.set_ylabel("y")
     ax1.set_xlim([-0.2, 0.2])
     ax1.set_ylim([-0.2, 0.2])
 
     ax2 = fig.add_subplot(132, aspect=1)  # 軌道のyz平面投影グラフの作成
-    ax2.plot(xs_rel[:, 1], xs_rel[:, 2])
+    ax2.plot(xs_rel[:, 1], xs_rel[:, 2], color="red")
     ax2.set_xlabel("y")
     ax2.set_ylabel("z")
     ax2.set_xlim([-0.2, 0.2])
     ax2.set_ylim([-0.2, 0.2])
 
     ax3 = fig.add_subplot(133, aspect=1)  # 軌道のzx平面投影グラフの作成
-    ax3.plot(xs_rel[:, 0], xs_rel[:, 2])
+    ax3.plot(xs_rel[:, 0], xs_rel[:, 2], color="red")
     ax3.set_xlabel("x")
     ax3.set_ylabel("z")
     ax3.set_xlim([-0.2, 0.2])
@@ -171,4 +171,4 @@ def cal_and_plot(tend):
     plt.show()
 
 if __name__ == '__main__':
-    cal_and_plot(1)
+    cal_and_plot(100)

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a83bb7f-0be9-44ee-9863-845242fa58ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/L4_3D_rel_coordinate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/L4_3D_abs_noise.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L4_3D_abs_coordinate.py" afterPath="$PROJECT_DIR$/L4_3D_abs_coordinate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L4_3D_rel_coordinate.py" afterPath="$PROJECT_DIR$/L4_3D_rel_coordinate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="L4_3D_abs_coordinate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4_3D_abs_coordinate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="145" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
               </folding>
@@ -25,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L4_3D_rel_coordinate.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="L4_3D_abs_noise.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L4_3D_abs_noise.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding>
+                <element signature="e#47#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L4_3D_rel_coordinate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4_3D_rel_coordinate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="549">
+              <caret line="173" column="20" lean-forward="false" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
               <folding>
                 <element signature="e#48#79#0" expanded="true" />
               </folding>
@@ -52,7 +67,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/L4_3D_abs_coordinate.py" />
         <option value="$PROJECT_DIR$/L4_3D_rel_coordinate.py" />
+        <option value="$PROJECT_DIR$/L4_3D_abs_noise.py" />
       </list>
     </option>
   </component>
@@ -152,8 +169,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L4_3D_abs_coordinate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="145" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
             <element signature="e#47#78#0" expanded="true" />
           </folding>
@@ -162,10 +179,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L4_3D_rel_coordinate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="549">
+          <caret line="173" column="20" lean-forward="false" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
           <folding>
             <element signature="e#48#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4_3D_abs_noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
